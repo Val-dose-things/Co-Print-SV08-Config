@@ -52,9 +52,9 @@ for the backup-mainsail.json go to settings and restore. this will geve you a be
 ![image](https://github.com/user-attachments/assets/9809aca9-20bd-45c0-b9a3-3022e0cd867e)
 ![image](https://github.com/user-attachments/assets/2b44681d-eef4-4a0a-b7ed-48b44488b696)
 
-
-
 copy the coprint_zoffset_test.gcode in to the 
+
 ![image](https://github.com/user-attachments/assets/d9d93382-2933-41f0-8d59-f8932a1a5700)
+
 rename it with a ".coprint_zoffset_test.gcode" this will make it a hidden file and keep you from deleting it when you clear out your files. 
 This will replace the stock one from sovol and have a PA in a range and settings that should not grind your extruder to dust. 
