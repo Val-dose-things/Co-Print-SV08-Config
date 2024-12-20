@@ -36,7 +36,6 @@ G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
 
-
 add this to here
 
 0x0, 22x0, 22x350, 0x350, 0x0, 350x0, 350x1, 0x1, 0x340, 350x340, 350x350, 0x350
@@ -47,3 +46,15 @@ this will keep you from printing in parts of the printer you really dont want to
 
 ![image](https://github.com/user-attachments/assets/e0abb280-f721-466f-a8e4-c584cce7c71c)
 
+in the others folder you should make these changes. 
+for the backup-mainsail.json go to settings and restore. this will geve you a better lay out for the macros. 
+
+![image](https://github.com/user-attachments/assets/9809aca9-20bd-45c0-b9a3-3022e0cd867e)
+![image](https://github.com/user-attachments/assets/2b44681d-eef4-4a0a-b7ed-48b44488b696)
+
+
+
+copy the coprint_zoffset_test.gcode in to the 
+![image](https://github.com/user-attachments/assets/d9d93382-2933-41f0-8d59-f8932a1a5700)
+rename it with a ".coprint_zoffset_test.gcode" this will make it a hidden file and keep you from deleting it when you clear out your files. 
+This will replace the stock one from sovol and have a PA in a range and settings that should not grind your extruder to dust. 
