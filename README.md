@@ -1,6 +1,8 @@
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
 
+use the offical wiki for more help.
+https://wiki.coprint3d.com/orcaslicer
 
 you will need to use this in your slicer
 
