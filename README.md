@@ -3,7 +3,7 @@ Co-Print SV08 Config pack
 
 
 you will need to use this in your slicer
-
+<
 G28
 G90
 G1 X175 F9000
@@ -27,5 +27,5 @@ G92 E0.0 ; reset extruder
 G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
-
+>
 
