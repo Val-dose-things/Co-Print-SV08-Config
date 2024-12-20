@@ -4,6 +4,11 @@ Co-Print SV08 Config pack
 use the offical wiki for more help.
 https://wiki.coprint3d.com/orcaslicer
 
+here are some modles i made to help fix issues with the stock options. 
+https://wiki.coprint3d.com/orcaslicer
+https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
+
+
 you will need to use this in your slicer
 
 G28
