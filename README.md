@@ -42,3 +42,8 @@ add this to here
 0x0, 22x0, 22x350, 0x350, 0x0, 350x0, 350x1, 0x1, 0x340, 350x340, 350x350, 0x350
 
 ![image](https://github.com/user-attachments/assets/54b55204-f05c-4227-b9a3-400c92882be9)
+
+this will keep you from printing in parts of the printer you really dont want to.(until someone makes a remount that centers the nozzle. not me i cant moddle that well.)
+
+![image](https://github.com/user-attachments/assets/e0abb280-f721-466f-a8e4-c584cce7c71c)
+
