@@ -12,7 +12,7 @@ https://www.printables.com/model/1108791-sv08-coprint-mount-light
 
 you will need to use this in your slicer
 
-G28
+'G28
 G90
 G1 X175 F9000
 G1 Y175
@@ -34,7 +34,7 @@ G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+10} E40 F360.0 ; e
 G92 E0.0 ; reset extruder
 G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
-G92 E0.0 ; reset extruder
+G92 E0.0 ; reset extruder'
 
 add this to here
 
