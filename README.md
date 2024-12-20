@@ -28,3 +28,9 @@ G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
 
+
+add this to here
+
+0x0, 22x0, 22x350, 0x350, 0x0, 350x0, 350x1, 0x1, 0x340, 350x340, 350x350, 0x350
+
+![image](https://github.com/user-attachments/assets/54b55204-f05c-4227-b9a3-400c92882be9)
