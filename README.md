@@ -38,8 +38,12 @@ G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
 ```
+update the folowing in orca
 
-![image](https://github.com/user-attachments/assets/e0abb280-f721-466f-a8e4-c584cce7c71c)
+![image](https://github.com/user-attachments/assets/d6101002-0e17-4009-803f-6339929eed9a)
+
+
+
 
 open the others folder here(https://github.com/Val-dose-things/Co-Print-SV08-Config/tree/main/other). download them on to your compute.
 for the backup-mainsail.json go to settings and restore. this will geve you a better lay out for the macros. 
