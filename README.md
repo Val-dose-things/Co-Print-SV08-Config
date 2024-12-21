@@ -42,9 +42,6 @@ update the folowing in orca
 
 ![image](https://github.com/user-attachments/assets/d6101002-0e17-4009-803f-6339929eed9a)
 
-
-
-
 open the others folder here(https://github.com/Val-dose-things/Co-Print-SV08-Config/tree/main/other). download them on to your compute.
 for the backup-mainsail.json go to settings and restore. this will geve you a better lay out for the macros. 
 
