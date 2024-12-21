@@ -41,7 +41,7 @@ G92 E0.0 ; reset extruder
 
 ![image](https://github.com/user-attachments/assets/e0abb280-f721-466f-a8e4-c584cce7c71c)
 
-in the others folder you should make these changes. 
+open the others folder here(https://github.com/Val-dose-things/Co-Print-SV08-Config/tree/main/other). download them on to your compute.
 for the backup-mainsail.json go to settings and restore. this will geve you a better lay out for the macros. 
 
 ![image](https://github.com/user-attachments/assets/9809aca9-20bd-45c0-b9a3-3022e0cd867e)
