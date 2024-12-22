@@ -1,11 +1,9 @@
-
-
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
 
-Ko-fi.com/valdosethings
+https://Ko-fi.com/valdosethings
 
-# this will get you to a working starting point anything else you will need to work on. 
+# this will get you to a working starting point anything else you will need to work on. please use the issues tab to let me know of anyfixes that should be made. good luck. sorry for the sub-par how to. 
 
 # !!!you must redo your PA test!!!
 
