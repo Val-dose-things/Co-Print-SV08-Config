@@ -57,3 +57,13 @@ This will replace the stock one from sovol and have a PA in a range and settings
 
 to get input shaper working you need to switch to mainline or use the BIGTREETECH S2DW V1.0 USB C input shaper. its plug and play.
 
+update the device ids. 
+copy all the ides to a notepad.
+then disconnect one by one to find out what is what. 
+
+![image](https://github.com/user-attachments/assets/e51af381-7116-420d-a740-46940477861f)
+![image](https://github.com/user-attachments/assets/64955e8d-c60e-4bbe-bbcf-9463ac8a717a)
+![image](https://github.com/user-attachments/assets/1827ef65-17b1-4e75-88ca-84434ab72f63)
+
+
+
