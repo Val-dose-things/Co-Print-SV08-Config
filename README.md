@@ -20,6 +20,8 @@ then disconnect one by one to find out what is what.
 ![image](https://github.com/user-attachments/assets/64955e8d-c60e-4bbe-bbcf-9463ac8a717a)
 ![image](https://github.com/user-attachments/assets/1827ef65-17b1-4e75-88ca-84434ab72f63)
 
+if thats not working use `ls /dev/serial/by-id/*` in ssh to get the list. 
+
 you will need to use this in your slicer
 ```
 G28
