@@ -1,10 +1,13 @@
-#this will get you to a working starting point anything else you will need to work on. 
+
 
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
 
-!!!you must redo your PA test!!!
-if you have issue with homing lower this setting 
+# this will get you to a working starting point anything else you will need to work on. 
+
+# !!!you must redo your PA test!!!
+
+# if you have issue with homing lower this setting 
 
 ```driver_sgthrs: 65```
 
