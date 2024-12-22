@@ -73,6 +73,19 @@ This will replace the stock one from sovol and have a PA in a range and settings
 
 to get input shaper working you need to switch to mainline or use the BIGTREETECH S2DW V1.0 USB C input shaper. its plug and play.
 
+verify this shetion if on mainline 
+```
+[printer]
+kinematics: corexy           
+max_velocity: 700            
+max_accel: 40000             
+#max_accel_to_decel: 10000 ; comment out for mainline
+minimum_cruise_ratio: 0.5 ; use on mainline
+max_z_velocity: 20           
+max_z_accel: 500             
+square_corner_velocity: 5.0  
+```
+
 
 
 
