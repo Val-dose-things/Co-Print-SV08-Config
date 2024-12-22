@@ -1,6 +1,8 @@
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
 
+!!!you must redo your PA test!!!
+
 use the offical wiki for more help.
 
 https://wiki.coprint3d.com/orcaslicer
