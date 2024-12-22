@@ -54,3 +54,6 @@ copy the coprint_zoffset_test.gcode in to the
 
 rename it with as ".coprint_zoffset_test.gcode" this will make it a hidden file and keep you from deleting it when you clear out your files. 
 This will replace the stock one from sovol and have a PA in a range and settings that should not grind your extruder to dust. 
+
+to get input shaper working you need to switch to mainline or use the BIGTREETECH S2DW V1.0 USB C input shaper. its plug and play.
+
