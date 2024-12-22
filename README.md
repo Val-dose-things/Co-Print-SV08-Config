@@ -1,4 +1,4 @@
-##this will get you to a working starting point anything else you will need to work on. 
+#this will get you to a working starting point anything else you will need to work on. 
 
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
