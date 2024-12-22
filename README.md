@@ -41,8 +41,6 @@ you will need to use this in your slicer
 ```
 G28
 G90
-G1 X175 F9000
-G1 Y175
 G1 Z0.800 F600
 SET_HEATER_TEMPERATURE HEATER=extruder TARGET=150
 M140 S[bed_temperature_initial_layer_single] ;set bed temp
