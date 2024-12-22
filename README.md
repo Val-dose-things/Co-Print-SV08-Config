@@ -3,6 +3,8 @@
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
 
+Ko-fi.com/valdosethings
+
 # this will get you to a working starting point anything else you will need to work on. 
 
 # !!!you must redo your PA test!!!
