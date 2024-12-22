@@ -2,9 +2,14 @@
 Co-Print SV08 Config pack
 
 use the offical wiki for more help.
+
 https://wiki.coprint3d.com/orcaslicer
 
 https://github.com/coprint
+
+if you have more then 4 you need the ecm_1.cfg from here
+
+https://github.com/Val-dose-things/configs
 
 here are some modles i made to help fix issues with the stock options.
 
@@ -22,7 +27,7 @@ then disconnect one by one to find out what is what.
 
 if thats not working use `ls /dev/serial/by-id/*` in ssh to get the list. 
 
-you will need to use this in your slicer
+you will need to use this in your slicer 
 ```
 G28
 G90
