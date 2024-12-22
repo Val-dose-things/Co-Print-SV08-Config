@@ -2,6 +2,9 @@
 Co-Print SV08 Config pack
 
 !!!you must redo your PA test!!!
+if you have issue with homing lower this setting 
+
+```driver_sgthrs: 65```
 
 use the offical wiki for more help.
 
