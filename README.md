@@ -12,6 +12,14 @@ https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
 
 https://www.printables.com/model/1108791-sv08-coprint-mount-light
 
+update the device ids. 
+copy all the ides to a notepad.
+then disconnect one by one to find out what is what. 
+
+![image](https://github.com/user-attachments/assets/e51af381-7116-420d-a740-46940477861f)
+![image](https://github.com/user-attachments/assets/64955e8d-c60e-4bbe-bbcf-9463ac8a717a)
+![image](https://github.com/user-attachments/assets/1827ef65-17b1-4e75-88ca-84434ab72f63)
+
 you will need to use this in your slicer
 ```
 G28
@@ -49,21 +57,13 @@ for the backup-mainsail.json go to settings and restore. this will geve you a be
 ![image](https://github.com/user-attachments/assets/2b44681d-eef4-4a0a-b7ed-48b44488b696)
 
 copy the coprint_zoffset_test.gcode in to the 
-
-![image](https://github.com/user-attachments/assets/d9d93382-2933-41f0-8d59-f8932a1a5700)
-
 rename it with as ".coprint_zoffset_test.gcode" this will make it a hidden file and keep you from deleting it when you clear out your files. 
 This will replace the stock one from sovol and have a PA in a range and settings that should not grind your extruder to dust. 
 
+![image](https://github.com/user-attachments/assets/d9d93382-2933-41f0-8d59-f8932a1a5700)
+
 to get input shaper working you need to switch to mainline or use the BIGTREETECH S2DW V1.0 USB C input shaper. its plug and play.
 
-update the device ids. 
-copy all the ides to a notepad.
-then disconnect one by one to find out what is what. 
-
-![image](https://github.com/user-attachments/assets/e51af381-7116-420d-a740-46940477861f)
-![image](https://github.com/user-attachments/assets/64955e8d-c60e-4bbe-bbcf-9463ac8a717a)
-![image](https://github.com/user-attachments/assets/1827ef65-17b1-4e75-88ca-84434ab72f63)
 
 
 
