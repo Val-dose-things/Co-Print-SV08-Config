@@ -23,8 +23,6 @@ https://github.com/Val-dose-things/configs
 
 here are some modles i made to help fix issues with the stock options.
 
-# do to an oversight you must use this mount until i can fix the mount and adjust the x axis settings. 
-
 https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
 
 https://www.printables.com/model/1108791-sv08-coprint-mount-light
