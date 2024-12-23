@@ -67,7 +67,7 @@ G92 E0.0 ; reset extruder
 ```
 update the folowing in orca
 
-![image](https://github.com/user-attachments/assets/d6101002-0e17-4009-803f-6339929eed9a)
+![image](https://github.com/user-attachments/assets/e09d8b17-201c-4d35-b1d2-fed8ed58c63d)
 
 open the others folder here(https://github.com/Val-dose-things/Co-Print-SV08-Config/tree/main/other). download them on to your compute.
 for the backup-mainsail.json go to settings and restore. this will geve you a better lay out for the macros. 
