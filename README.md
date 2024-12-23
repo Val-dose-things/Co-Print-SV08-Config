@@ -29,7 +29,8 @@ https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
 
 https://www.printables.com/model/1108791-sv08-coprint-mount-light
 
-update the device ids. # use /dev/serial/by-id/
+update the device ids. 
+# use /dev/serial/by-id/
 
 copy all the ides to a notepad.
 
