@@ -30,7 +30,7 @@ https://www.printables.com/model/1108791-sv08-coprint-mount-light
 update the device ids. 
 # use /dev/serial/by-id/
 
-copy all the ides to a notepad.
+copy all the ids to a notepad.
 
 then disconnect one by one to find out what is what. 
 
@@ -40,7 +40,7 @@ then disconnect one by one to find out what is what.
 
 if thats not working use `ls /dev/serial/by-id/*` in ssh to get the list. 
 
-you will need to use this in your slicer 
+you will need to use this in your slicer start gcode.
 ```
 G28
 G90
@@ -63,7 +63,7 @@ G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
 ```
-update the folowing in orca
+update the following in orca
 
 ![image](https://github.com/user-attachments/assets/e09d8b17-201c-4d35-b1d2-fed8ed58c63d)
 
@@ -73,7 +73,7 @@ for the backup-mainsail.json go to settings and restore. this will geve you a be
 ![image](https://github.com/user-attachments/assets/9809aca9-20bd-45c0-b9a3-3022e0cd867e)
 ![image](https://github.com/user-attachments/assets/2b44681d-eef4-4a0a-b7ed-48b44488b696)
 
-copy the coprint_zoffset_test.gcode in to the 
+copy the coprint_zoffset_test.gcode in to the gcode directly.
 rename it with as ".coprint_zoffset_test.gcode" this will make it a hidden file and keep you from deleting it when you clear out your files. 
 This will replace the stock one from sovol and have a PA in a range and settings that should not grind your extruder to dust. 
 
@@ -88,7 +88,7 @@ kinematics: corexy
 max_velocity: 700            
 max_accel: 40000             
 #max_accel_to_decel: 10000 ; comment out for mainline
-minimum_cruise_ratio: 0.5 ; use on mainline
+minimum_cruise_ratio: 0.5 ; use on mainline only
 max_z_velocity: 20           
 max_z_accel: 500             
 square_corner_velocity: 5.0  
