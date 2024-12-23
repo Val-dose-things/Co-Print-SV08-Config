@@ -9,7 +9,7 @@ https://Ko-fi.com/valdosethings
 
 # if you have issue with homing lower this setting 
 
-```driver_sgthrs: 65```
+```driver_sgthrs: 68```
 
 use the offical wiki for more help.
 
