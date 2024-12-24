@@ -64,8 +64,10 @@ G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extr
 G92 E0.0 ; reset extruder
 ```
 also add 
+
 In Start Gcode add:
 ```SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]```
+
 In Layer change Gcode add:
 ```SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}```
 
