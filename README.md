@@ -63,6 +63,12 @@ G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
 G92 E0.0 ; reset extruder
 ```
+also add 
+In Start Gcode add:
+```SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]```
+In Layer change Gcode add:
+```SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}```
+
 update the following in orca
 
 ![image](https://github.com/user-attachments/assets/e09d8b17-201c-4d35-b1d2-fed8ed58c63d)
