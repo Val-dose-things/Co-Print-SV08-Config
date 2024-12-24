@@ -48,6 +48,7 @@ G1 Z0.800 F600
 SET_HEATER_TEMPERATURE HEATER=extruder TARGET=150
 M140 S[bed_temperature_initial_layer_single] ;set bed temp
 M190 S[bed_temperature_initial_layer_single] ;wait for bed temp
+SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
 START_PRINT EXTRUDER=[initial_extruder]
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-90} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print.
@@ -64,9 +65,6 @@ G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extr
 G92 E0.0 ; reset extruder
 ```
 also add 
-
-In Start Gcode add:
-```SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]```
 
 In Layer change Gcode add:
 ```SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}```
