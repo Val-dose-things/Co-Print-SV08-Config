@@ -32,28 +32,18 @@ update the device ids.
 
 Unplug the KCM usb and then run this in the ssh shell.
 
-ls -la /dev/serial/by-id/
+```ls -la /dev/serial/by-id/```
 This will show the host mcu
 
 Then plug in the KCM with the toolhead disconnected
 
-ls -la /dev/serial/by-id/
+```ls -la /dev/serial/by-id/```
 The new one is the kcm mcu
 
 Plug in the toolhead
 
-ls -la /dev/serial/by-id/
+```ls -la /dev/serial/by-id/```
 This will show the toolhead mcu.
-
-copy all the ids to a notepad.
-
-then disconnect one by one to find out what is what. 
-
-![image](https://github.com/user-attachments/assets/e51af381-7116-420d-a740-46940477861f)
-![image](https://github.com/user-attachments/assets/64955e8d-c60e-4bbe-bbcf-9463ac8a717a)
-![image](https://github.com/user-attachments/assets/1827ef65-17b1-4e75-88ca-84434ab72f63)
-
-if thats not working use `ls /dev/serial/by-id/*` in ssh to get the list. 
 
 you will need to use this in your slicer start gcode.
 ```
