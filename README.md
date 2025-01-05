@@ -30,6 +30,21 @@ https://www.printables.com/model/1108791-sv08-coprint-mount-light
 update the device ids. 
 # use /dev/serial/by-id/
 
+Unplug the KCM usb and then run this in the ssh shell.
+
+ls -la /dev/serial/by-id/
+This will show the host mcu
+
+Then plug in the KCM with the toolhead disconnected
+
+ls -la /dev/serial/by-id/
+The new one is the kcm mcu
+
+Plug in the toolhead
+
+ls -la /dev/serial/by-id/
+This will show the toolhead mcu.
+
 copy all the ids to a notepad.
 
 then disconnect one by one to find out what is what. 
