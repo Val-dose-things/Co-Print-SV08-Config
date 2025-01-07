@@ -12,18 +12,18 @@ https://Ko-fi.com/valdosethings
 
 ```driver_sgthrs: 65```
 
-use the offical wiki for more help:
+#use the offical wiki for more help:
 https://wiki.coprint3d.com/orcaslicer
 https://github.com/coprint
 
-for going mainline:
+#for going mainline:
 https://github.com/Rappetor/Sovol-SV08-Mainline
 
-if you have more then 4 you need the ecm_1.cfg from here
+#if you have more then 4 you need the ecm_1.cfg from here
 
 https://github.com/Val-dose-things/configs
 
-here are some modles i made to help fix issues with the stock options.
+#here are some modles i made to help fix issues with the stock options.
 
 https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
 
