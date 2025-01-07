@@ -3,19 +3,21 @@ Co-Print SV08 Config pack
 
 https://Ko-fi.com/valdosethings
 
+
 # this will get you to a working starting point. anything else you will need to work on. please use the issues tab to let me know of any fixes that should be made. good luck. sorry for the sub-par how to. 
 
 # !!!you must redo your PA test!!!
 
 # if you have issue with homing lower this setting 
 
-```driver_sgthrs: 68```
+```driver_sgthrs: 65```
 
-use the offical wiki for more help.
-
+use the offical wiki for more help:
 https://wiki.coprint3d.com/orcaslicer
-
 https://github.com/coprint
+
+for going mainline:
+https://github.com/Rappetor/Sovol-SV08-Mainline
 
 if you have more then 4 you need the ecm_1.cfg from here
 
@@ -28,7 +30,7 @@ https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
 https://www.printables.com/model/1108791-sv08-coprint-mount-light
 
 update the device ids. 
-# use /dev/serial/by-id/
+use /dev/serial/by-id/
 
 Unplug the KCM usb and then run this in the ssh shell.
 
