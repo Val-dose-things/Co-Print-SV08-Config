@@ -8,18 +8,18 @@ https://Ko-fi.com/valdosethings
 
 # !!!you must redo your PA test!!!
 
-# if you have issue with homing lower this setting 
+if you have issue with homing lower this setting 
 
 ```driver_sgthrs: 65```
 
-#use the offical wiki for more help:
+use the offical wiki for more help:
 https://wiki.coprint3d.com/orcaslicer
 https://github.com/coprint
 
-#for going mainline:
+for going mainline:
 https://github.com/Rappetor/Sovol-SV08-Mainline
 
-#if you have more then 4 you need the ecm_1.cfg from here
+if you have more then 4 you need the ecm_1.cfg from here
 
 https://github.com/Val-dose-things/configs
 
