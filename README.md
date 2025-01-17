@@ -8,6 +8,10 @@ https://Ko-fi.com/valdosethings
 
 # !!!you must redo your PA test!!!
 
+
+# replacement all your files with these. I have fix a few additional things. I suggest downloading all your files before hand. 
+
+
 if you have issue with homing lower this setting 
 
 ```driver_sgthrs: 65```
