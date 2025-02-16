@@ -33,7 +33,9 @@ https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
 
 https://www.printables.com/model/1108791-sv08-coprint-mount-light
 
-update the device ids. 
+---------------------------
+
+you should update the devices to
 use /dev/serial/by-id/
 
 Unplug the KCM usb and then run this in the ssh shell.
