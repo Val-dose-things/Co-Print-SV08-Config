@@ -51,6 +51,8 @@ Plug in the toolhead
 ```ls -la /dev/serial/by-id/```
 This will show the toolhead mcu.
 
+-------------------
+
 you will need to use this in your slicer start gcode.
 ```
 G28
