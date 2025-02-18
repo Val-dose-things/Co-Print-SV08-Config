@@ -67,7 +67,7 @@ SET_PRINT_STATS_INFO TOTAL_LAYER=[total_layer_count]
 
 START_PRINT EXTRUDER=[initial_extruder]
 
-#purge
+;purge
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-90} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print.
 M104 S[nozzle_temperature_initial_layer] ;set extruder temp
