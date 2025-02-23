@@ -68,10 +68,10 @@ START_PRINT EXTRUDER=[initial_extruder]
 
 ;Purge line
 G92 E0.0 ; reset extruder
-G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+60} Z0.8 F6000.0 ; position 60mm behind print.
+G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print.
 M104 S[nozzle_temperature_initial_layer] ;set extruder temp
 M109 S[nozzle_temperature_initial_layer];wait for extruder temp
-G1 E75 F600
+G1 E75 F600 ; set filament 
 M400
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-60} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print.
