@@ -76,6 +76,8 @@ M400
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-60} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print.
 G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+10} E70 F360.0 ; extrude 60mm of filament in the x direction
+G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+7} Z0.8 F6000.0 ; position 7mm behind print.
+G1 X{first_layer_print_max[0]-50} Y{first_layer_print_max[1]+7} E70 F360.0 ; extrude 60mm of filament in the x direction
 G92 E0.0 ; reset extruder
 G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
