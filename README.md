@@ -57,6 +57,14 @@ This will show the toolhead mcu.
 
 you will need to use this in your slicer start gcode.
 ```
+G28
+G90
+G1 Z0.800 F600
+SET_HEATER_TEMPERATURE HEATER=extruder TARGET=150
+M140 S[bed_temperature_initial_layer_single] ;set bed temp
+M190 S[bed_temperature_initial_layer_single] ;wait for bed temp
+
+START_PRINT EXTRUDER=[initial_extruder]
 
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print.
