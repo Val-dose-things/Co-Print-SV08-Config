@@ -61,6 +61,8 @@ G28
 G90
 G1 Z0.800 F600
 SET_HEATER_TEMPERATURE HEATER=extruder TARGET=150
+ 
+SET_HEATER_TEMPERATURE BED_TEMP=[bed_temperature_initial_layer_single]
 M140 S[bed_temperature_initial_layer_single] ;set bed temp
 M190 S[bed_temperature_initial_layer_single] ;wait for bed temp
 
@@ -68,6 +70,7 @@ START_PRINT EXTRUDER=[initial_extruder]
 
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print
+SET_HEATER_TEMPERATURE EXTRUDER_TEMP=[nozzle_temperature_initial_layer]
 M104 S[nozzle_temperature_initial_layer] ;set extruder temp
 M109 S[nozzle_temperature_initial_layer];wait for extruder temp
 M400
