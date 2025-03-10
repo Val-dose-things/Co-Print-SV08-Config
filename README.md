@@ -53,6 +53,10 @@ Plug in the toolhead
 ```ls -la /dev/serial/by-id/```
 This will show the toolhead mcu.
 
+![482081274_1935388256864842_4292328743022954373_n](https://github.com/user-attachments/assets/e5e69390-d015-4c42-af3b-f177bbb7415c)
+![481957638_1935388526864815_1304757567423387391_n](https://github.com/user-attachments/assets/215391a9-d271-4905-8d6e-a1f0cf646454)
+![483917301_1935388723531462_1055497483776585922_n](https://github.com/user-attachments/assets/1a6300e8-9b05-4c00-b187-564002229834)
+
 -------------------
 
 you will need to use this in your slicer start gcode.
