@@ -63,7 +63,6 @@ you will need to use this in your slicer start gcode.
 ```
 G28
 G90
-G1 Z0.800 F600
 SET_HEATER_TEMPERATURE HEATER=extruder TARGET=150
 M140 S[bed_temperature_initial_layer_single] ;set bed temp
 M190 S[bed_temperature_initial_layer_single] ;wait for bed temp
