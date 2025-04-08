@@ -10,7 +10,7 @@ Co-Print SV08 Config pack
 
 # replacement all your files with these. I have fix a few additional things. I suggest downloading all your files before hand. 
 
-![image](https://github.com/user-attachments/assets/557e1682-cf68-4112-8948-797259dc63a9)
+![image](https://github.com/user-attachments/assets/c46ed2b1-ccfb-4434-84ff-c1df7f16b2c0)
 
 if you have issue with homing lower this setting 
 
