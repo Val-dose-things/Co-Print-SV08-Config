@@ -93,7 +93,9 @@ also add
 
 In Layer change Gcode add:
 ```SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}```
+
 and
+
 In Change filament Gcode add:
 ```FILAMENT_CHANGE LAYER_NUM=[layer_num] NEXT_EXTRUDER=[next_extruder]```
 
