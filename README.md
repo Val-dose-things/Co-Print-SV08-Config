@@ -96,6 +96,8 @@ In Layer change Gcode add:
 
 update the following in orca
 
+![image](https://github.com/user-attachments/assets/5b50e0ec-133e-4502-a620-4fecfcaa50c7)
+
 ![image](https://github.com/user-attachments/assets/e09d8b17-201c-4d35-b1d2-fed8ed58c63d)
 
 open the others folder here(https://github.com/Val-dose-things/Co-Print-SV08-Config/tree/main/other). download them on to your compute.
