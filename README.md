@@ -76,13 +76,13 @@ M104 S[nozzle_temperature_initial_layer] ;set extruder temp
 M109 S[nozzle_temperature_initial_layer];wait for extruder temp
 M400
 
-G1 E75 F600 ; set filament 
+G1 E65 F600 ; set filament 
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print
-G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+10} E70 F360.0 ; extrude 60mm of filament in the x direction
+G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+10} E50 F360.0 ; extrude 60mm of filament in the x direction
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+7} Z0.8 F6000.0 ; position 7mm behind print
-G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+7} E70 F360.0 ; extrude 60mm of filament in the x direction
+G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+7} E50 F360.0 ; extrude 60mm of filament in the x direction
 G92 E0.0 ; reset extruder
 G1 E-0.5 F2100 ; small retraction
 G1 X{first_layer_print_max[0]-40} F6000.0 ; move an additional 10mm without extruding
