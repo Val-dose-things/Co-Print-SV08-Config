@@ -68,6 +68,8 @@ SET_HEATER_TEMPERATURE HEATER=extruder TARGET=150
 M140 S[bed_temperature_initial_layer_single] ;set bed temp
 M190 S[bed_temperature_initial_layer_single] ;wait for bed temp
 
+HEATSOAK
+
 START_PRINT EXTRUDER=[initial_extruder]
 
 G92 E0.0 ; reset extruder
