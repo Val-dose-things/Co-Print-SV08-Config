@@ -30,9 +30,6 @@ https://github.com/Val-dose-things/configs
 #here are some modles i made to help fix issues with the stock options.
 
 https://www.printables.com/model/1099879-coprint-sv08-bracket-upgrade
-
-https://www.printables.com/model/1108791-sv08-coprint-mount-light
-
 ---------------------------
 
 you should update the devices to
