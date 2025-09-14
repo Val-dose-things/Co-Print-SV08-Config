@@ -1,7 +1,7 @@
 # Co-Print-SV08-Config
 Co-Print SV08 Config pack
 
-<a href='https://ko-fi.com/valdosethings' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href='https://ko-fi.com/valdosethings' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/generated/fhfuc7slzawvi/2025-04-02_rest-30d68014813b87f4772024e232cc533c-q6rcze2z.jpg' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 # this will get you to a working starting point. anything else you will need to work on. please use the issues tab to let me know of any fixes that should be made. good luck. sorry for the sub-par how to. 
 
