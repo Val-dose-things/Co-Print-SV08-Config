@@ -78,6 +78,8 @@ M400
 G1 E121 F600 ; set filament 
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-80} Y{first_layer_print_max[1]+10} Z0.8 F6000.0 ; position 10mm behind print
+BEEP_BEEP
+BEEP_BEEP
 G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+10} E50 F360.0 ; extrude 60mm of filament in the x direction
 G92 E0.0 ; reset extruder
 G1 X{first_layer_print_max[0]-120} Y{first_layer_print_max[1]+7} Z0.8 F6000.0 ; position 7mm behind print
