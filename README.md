@@ -93,12 +93,16 @@ G92 E0.0 ; reset extruder
 also add 
 
 In Layer change Gcode add:
-```SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}```
-
+```
+SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
+```
 and
 
 In Change filament Gcode add:
-```FILAMENT_CHANGE LAYER_NUM=[layer_num] NEXT_EXTRUDER=[next_extruder]```
+```
+SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
+M117 Layer {layer_num+1}/[total_layer_count] : {filament_settings_id[0]}
+```
 
 update the following in orca
 
